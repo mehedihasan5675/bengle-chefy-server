@@ -8,7 +8,16 @@ const express=require('express')
     app.get('/chef',(req,res)=>{
         res.send(chefInfo)
     })
-    
+    app.get('/chef/:id',(req,res)=>{
+        const id=parseInt(req.params.id);
+        if(id===0){
+            res.send(chefInfo)
+        }
+        const searchChefId=chefInfo.find(f=>f._id===id)
+        res.send(searchChefId)
+        console.log(id);
+        
+    })
    app.listen(port,()=>{
      console.log(`This server is running with ${port} port`); 
     })
