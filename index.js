@@ -1,13 +1,14 @@
 const express=require('express')
  const app=express()
-  const port=process.env.PORT || 1000 
-  const recipe_info=require('./chef.json')
+  const port=process.env.PORT || 7000 
+  const chefInfo=require('./chef.json')
   app.get('/',(req,res)=>{
-     res.send('Recipe wass running') 
+     res.send('Recipe wasi runnig') 
     })
-    app.get('/chef_recipe',(req,res)=>{
-        res.send(recipe_info)
+    app.get('/chef',(req,res)=>{
+        res.send(chefInfo)
     })
+    
    app.listen(port,()=>{
      console.log(`This server is running with ${port} port`); 
     })
