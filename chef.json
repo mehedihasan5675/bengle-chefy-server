@@ -1,12 +1,12 @@
 [
   {
     "_id": 1,
-    "chef_name": "Nadia Ahmed",
-    "short_bio": "Nadia Ahmed is a passionate Bangladeshi chef who specializes in traditional and fusion Bangladeshi cuisine. She has worked as a chef in several high-end restaurants and hotels in Bangladesh and has also participated in various cooking competitions.",
+    "chef_name": "Nabil Ahmed",
+    "short_bio": "Nabil Ahmed is a passionate Bangladeshi chef who specializes in traditional and fusion Bangladeshi cuisine. He has worked as a chef in several high-end restaurants and hotels in Bangladesh and has also participated in various cooking competitions.",
     "likes": 3721,
     "num_of_recipes": 70,
     "years_of_experience": 12,
-    "chef_picture": "https://images.pexels.com/photos/7525114/pexels-photo-7525114.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "chef_picture": "https://images.pexels.com/photos/14811401/pexels-photo-14811401.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "recipes": [
       {
         "recipe_name": "Shatkora Murgi (Chicken with Citrus)",
@@ -309,7 +309,7 @@
     "likes": 10256,
     "num_of_recipes": 80,
     "years_of_experience": 15,
-    "chef_picture": "https://www.pexels.com/photo/man-in-white-dress-shirt-holding-silver-bowl-4253312/",
+    "chef_picture": "https://images.pexels.com/photos/4253312/pexels-photo-4253312.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "recipes": [
       {
         "recipe_name": "Dhaka Style Beef Tehari",
