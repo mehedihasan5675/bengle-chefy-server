@@ -1,10 +1,14 @@
 const express=require('express')
  const app=express()
   const port=process.env.PORT || 7000 
+  const cors=require('cors')
   const chefInfo=require('./chef.json')
+
+
+  app.use(cors())
   app.get('/',(req,res)=>{
-     res.send('Recipe wasi runnig') 
-    })
+    res.send(chefInfo)
+  })
     app.get('/chef',(req,res)=>{
         res.send(chefInfo)
     })
